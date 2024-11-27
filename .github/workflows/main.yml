@@ -4,6 +4,6 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-       - name: Ma première étape
-         uses: docker://alpine:3.8
+         - uses: actions/javascript-action@v1.0.1
+  
   
