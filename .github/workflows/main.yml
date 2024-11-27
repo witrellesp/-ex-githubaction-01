@@ -4,5 +4,6 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello world"
+       - name: Ma première étape
+         uses: docker://alpine:3.8
   
